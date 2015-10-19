@@ -1,0 +1,76 @@
+@charset 'UTF-8'
+
+@import 'media-variables'
+
+$grid-columns: 12 !default
+$grid-gutter: 0.5rem !default
+
+%clearfix
+  *zoom: 1
+  &:before,
+  &:after
+      content: ''
+      display: table
+
+  &:after
+      clear: both
+
+[class^='col-']
+  float: left
+  width: 100%
+  padding: 0 $grid-gutter
+  min-height: 1px
+  box-sizing: border-box
+
+@mixin grid-column($size, $n)
+  .col-#{$size}-#{$n}
+    width: 100% / $grid-columns * $n
+  .col-#{$size}-offset-0
+    margin-left: 0
+  .col-#{$size}-offset-#{$n}
+    margin-left: 100% / $grid-columns * $n
+
+.row
+  @extend %clearfix
+  box-sizing: border-box
+  margin: 0 -#{$grid-gutter}
+
+.no-gutter
+  margin: 0
+  > [class^='col-']
+    padding: 0
+
+@for $i from 1 through $grid-columns
+  @include grid-column(xs, $i)
+
+@media #{$screen-sm-up}
+  @for $i from 1 through $grid-columns
+    @include grid-column(sm, $i)
+
+@media #{$screen-md-up}
+  @for $i from 1 through $grid-columns
+    @include grid-column(md, $i)
+
+@media #{$screen-lg-up}
+  @for $i from 1 through $grid-columns
+    @include grid-column(lg, $i)
+
+@media #{$screen-xl-up}
+  @for $i from 1 through $grid-columns
+    @include grid-column(xl, $i)
+
+
+// manage container width :
+
+.container
+  padding: 0 $grid-gutter
+  max-width: $screen-size-lg
+  margin: 0 auto
+
+.container-xl
+  padding: 0 $grid-gutter
+  max-width: $screen-size-xl
+  margin: 0 auto
+
+.container-fluid
+  padding: 0 $grid-gutter

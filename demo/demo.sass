@@ -1,0 +1,68 @@
+
+@import '../styles/responsive'
+
+%clearfix
+  *zoom: 1
+  &:before,
+  &:after
+      content: ''
+      display: table
+
+  &:after
+      clear: both
+
+html, body
+  margin: 0
+  padding: 0
+  font-family: Arial
+  font-family: Menlo, Consolas, 'DejaVu Sans Mono', monospace
+
+.demo-col-box
+  @extend %clearfix
+  padding: units(0.5) units(1)
+  background: rgba(150,150,150,0.4)
+  border: 1px solid rgba(150,150,150,0.6)
+
+.demo-responsive
+
+  color: #999
+
+  @media #{$screen-xs}
+    .screen-xs
+      color: black
+      font-weight: bold
+
+  @media #{$screen-sm-up}
+    .screen-sm-up
+      color: black
+      font-weight: bold
+
+  @media #{$screen-sm}
+    .screen-sm
+      color: black
+      font-weight: bold
+
+  @media #{$screen-md-up}
+    .screen-md-up
+      color: black
+      font-weight: bold
+
+  @media #{$screen-md}
+    .screen-md
+      color: black
+      font-weight: bold
+
+  @media #{$screen-lg-up}
+    .screen-lg-up
+      color: black
+      font-weight: bold
+
+  @media #{$screen-lg}
+    .screen-lg
+      color: black
+      font-weight: bold
+
+  @media #{$screen-xl}
+    .screen-xl
+      color: black
+      font-weight: bold

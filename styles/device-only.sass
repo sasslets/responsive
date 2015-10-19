@@ -1,0 +1,10 @@
+
+$current-device: 'desktop' !default
+
+@mixin desktop-only
+  @if $current-device == 'desktop'
+    @content
+
+@mixin mobile-only
+  @if $current-device == 'mobile'
+    @content
