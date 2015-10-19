@@ -10,6 +10,9 @@ Installation
 ``` sh
 bower install sasslets-responsive --save-dev
 ```
+``` sh
+npm install sasslets-responsive --save-dev
+```
 
 Usage
 -----
