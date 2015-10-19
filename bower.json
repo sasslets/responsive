@@ -1,7 +1,7 @@
 {
-  "name": "sasslets-animate",
-  "version": "0.0.0",
-  "homepage": "http://github.com/sasslets/animate",
+  "name": "sasslets-responsive",
+  "version": "0.0.2",
+  "homepage": "http://github.com/sasslets/responsive",
   "authors": [
     "Jesús Germade <jesus@germade.es>"
   ],
