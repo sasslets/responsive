@@ -1,6 +1,6 @@
 {
   "name": "sasslets-responsive",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "sass responsive variables, container and grid",
   "main": "make.js",
   "scripts": {
