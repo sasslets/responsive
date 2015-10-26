@@ -19,6 +19,16 @@ live: auto.install
 dev: auto.install
 	@node make dev
 
+publish: auto.install
+	@git fetch origin
+	@git checkout master
+	pkgVersion = $(shell node make pkg:increaseVersion)
+	@git add --all
+	git commit -n -m "updating to $(pkgVersion)"
+	@echo "\n\tnew version $(pkgVersion)\n"
+	@git push origin master
+	@npm publish
+
 # DEFAULT TASKS
 
 .DEFAULT_GOAL := build

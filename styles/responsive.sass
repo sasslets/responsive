@@ -15,7 +15,7 @@ $grid-gutter: 0.5rem !default
   &:after
       clear: both
 
-[class^='col-']
+[class*='col-']
   float: left
   width: 100%
   padding: 0 $grid-gutter
@@ -62,9 +62,19 @@ $grid-gutter: 0.5rem !default
 
 // manage container width :
 
-.container
+.container, .container-lg
   padding: 0 $grid-gutter
   max-width: $screen-size-lg
+  margin: 0 auto
+
+.container-sm
+  padding: 0 $grid-gutter
+  max-width: $screen-size-sm
+  margin: 0 auto
+
+.container-md
+  padding: 0 $grid-gutter
+  max-width: $screen-size-md
   margin: 0 auto
 
 .container-xl
