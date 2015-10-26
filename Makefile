@@ -22,7 +22,7 @@ dev: auto.install
 publish: auto.install
 	@git fetch origin
 	@git checkout master
-	pkgVersion = $(shell node make pkg:increaseVersion)
+	$(eval pkgVersion := $(shell node make pkg:increaseVersion) )
 	@git add --all
 	git commit -n -m "updating to $(pkgVersion)"
 	@echo "\n\tnew version $(pkgVersion)\n"

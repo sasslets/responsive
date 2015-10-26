@@ -1,20 +1,20 @@
 {
-  "name": "sasslets-responsive",
-  "version": "0.0.2",
-  "homepage": "http://github.com/sasslets/responsive",
-  "authors": [
-    "Jesús Germade <jesus@germade.es>"
-  ],
-  "description": "",
-  "main": "",
-  "moduleType": [],
-  "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {}
+	"name": "sasslets-responsive",
+	"version": "0.0.4",
+	"homepage": "http://github.com/sasslets/responsive",
+	"authors": [
+		"Jesús Germade <jesus@germade.es>"
+	],
+	"description": "",
+	"main": "",
+	"moduleType": [],
+	"license": "MIT",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	],
+	"dependencies": {}
 }
