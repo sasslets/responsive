@@ -1,6 +1,6 @@
 {
 	"name": "sasslets-responsive",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"homepage": "http://github.com/sasslets/responsive",
 	"authors": [
 		"Jesús Germade <jesus@germade.es>"
@@ -16,5 +16,6 @@
 		"test",
 		"tests"
 	],
+	"repository": "sasslets/responsive",
 	"dependencies": {}
 }
