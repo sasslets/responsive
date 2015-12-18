@@ -29,6 +29,10 @@ publish: auto.install
 	@git push origin master
 	@npm publish
 
+deploy:
+	node make sass
+	git subtree push --prefix=demo origin gh-pages
+
 # DEFAULT TASKS
 
 .DEFAULT_GOAL := build
