@@ -15,13 +15,6 @@ $grid-gutter: 0.5rem !default
   &:after
       clear: both
 
-[class*='col-']
-  float: left
-  width: 100%
-  padding: 0 $grid-gutter
-  min-height: 1px
-  box-sizing: border-box
-
 @mixin grid-column($size, $n)
   .col-#{$size}-#{$n}
     width: 100% / $grid-columns * $n
@@ -30,14 +23,24 @@ $grid-gutter: 0.5rem !default
   .col-#{$size}-offset-#{$n}
     margin-left: 100% / $grid-columns * $n
 
+@mixin grid-row ()
+  float: left
+  width: 100%
+  min-height: 1px
+  padding: 0 3*$grid-gutter/4
+  @media #{$screen-sm-up}
+    padding: 0 $grid-gutter
+
+[class^='col-'], [class*=' col-']
+  @include grid-row()
+
 .row
   @extend %clearfix
-  box-sizing: border-box
   margin: 0 -#{$grid-gutter}
 
 .no-gutter
   margin: 0
-  > [class^='col-']
+  > [class^='col-'], [class*=' col-']
     padding: 0
 
 @for $i from 1 through $grid-columns

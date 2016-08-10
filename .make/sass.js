@@ -11,7 +11,7 @@ module.exports = function (nitro) {
       .load('{,**/}*.{sass,scss}')
       .process('sass', {
         includePaths: [
-          '../styles'
+          'styles'
         ],
         autoprefix: true,
         sourceComments: dev,

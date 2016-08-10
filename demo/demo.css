@@ -1,1 +1,710 @@
-.row,.demo-col-box{*zoom:1}.row:before,.demo-col-box:before,.row:after,.demo-col-box:after{content:'';display:table}.row:after,.demo-col-box:after{clear:both}[class*='col-']{float:left;width:100%;padding:0 0.5rem;min-height:1px;box-sizing:border-box}.row{box-sizing:border-box;margin:0 -0.5rem}.no-gutter{margin:0}.no-gutter>[class^='col-']{padding:0}.col-xs-1{width:8.33333%}.col-xs-offset-0{margin-left:0}.col-xs-offset-1{margin-left:8.33333%}.col-xs-2{width:16.66667%}.col-xs-offset-0{margin-left:0}.col-xs-offset-2{margin-left:16.66667%}.col-xs-3{width:25%}.col-xs-offset-0{margin-left:0}.col-xs-offset-3{margin-left:25%}.col-xs-4{width:33.33333%}.col-xs-offset-0{margin-left:0}.col-xs-offset-4{margin-left:33.33333%}.col-xs-5{width:41.66667%}.col-xs-offset-0{margin-left:0}.col-xs-offset-5{margin-left:41.66667%}.col-xs-6{width:50%}.col-xs-offset-0{margin-left:0}.col-xs-offset-6{margin-left:50%}.col-xs-7{width:58.33333%}.col-xs-offset-0{margin-left:0}.col-xs-offset-7{margin-left:58.33333%}.col-xs-8{width:66.66667%}.col-xs-offset-0{margin-left:0}.col-xs-offset-8{margin-left:66.66667%}.col-xs-9{width:75%}.col-xs-offset-0{margin-left:0}.col-xs-offset-9{margin-left:75%}.col-xs-10{width:83.33333%}.col-xs-offset-0{margin-left:0}.col-xs-offset-10{margin-left:83.33333%}.col-xs-11{width:91.66667%}.col-xs-offset-0{margin-left:0}.col-xs-offset-11{margin-left:91.66667%}.col-xs-12{width:100%}.col-xs-offset-0{margin-left:0}.col-xs-offset-12{margin-left:100%}@media (min-width: 480px){.col-sm-1{width:8.33333%}.col-sm-offset-0{margin-left:0}.col-sm-offset-1{margin-left:8.33333%}.col-sm-2{width:16.66667%}.col-sm-offset-0{margin-left:0}.col-sm-offset-2{margin-left:16.66667%}.col-sm-3{width:25%}.col-sm-offset-0{margin-left:0}.col-sm-offset-3{margin-left:25%}.col-sm-4{width:33.33333%}.col-sm-offset-0{margin-left:0}.col-sm-offset-4{margin-left:33.33333%}.col-sm-5{width:41.66667%}.col-sm-offset-0{margin-left:0}.col-sm-offset-5{margin-left:41.66667%}.col-sm-6{width:50%}.col-sm-offset-0{margin-left:0}.col-sm-offset-6{margin-left:50%}.col-sm-7{width:58.33333%}.col-sm-offset-0{margin-left:0}.col-sm-offset-7{margin-left:58.33333%}.col-sm-8{width:66.66667%}.col-sm-offset-0{margin-left:0}.col-sm-offset-8{margin-left:66.66667%}.col-sm-9{width:75%}.col-sm-offset-0{margin-left:0}.col-sm-offset-9{margin-left:75%}.col-sm-10{width:83.33333%}.col-sm-offset-0{margin-left:0}.col-sm-offset-10{margin-left:83.33333%}.col-sm-11{width:91.66667%}.col-sm-offset-0{margin-left:0}.col-sm-offset-11{margin-left:91.66667%}.col-sm-12{width:100%}.col-sm-offset-0{margin-left:0}.col-sm-offset-12{margin-left:100%}}@media (min-width: 768px){.col-md-1{width:8.33333%}.col-md-offset-0{margin-left:0}.col-md-offset-1{margin-left:8.33333%}.col-md-2{width:16.66667%}.col-md-offset-0{margin-left:0}.col-md-offset-2{margin-left:16.66667%}.col-md-3{width:25%}.col-md-offset-0{margin-left:0}.col-md-offset-3{margin-left:25%}.col-md-4{width:33.33333%}.col-md-offset-0{margin-left:0}.col-md-offset-4{margin-left:33.33333%}.col-md-5{width:41.66667%}.col-md-offset-0{margin-left:0}.col-md-offset-5{margin-left:41.66667%}.col-md-6{width:50%}.col-md-offset-0{margin-left:0}.col-md-offset-6{margin-left:50%}.col-md-7{width:58.33333%}.col-md-offset-0{margin-left:0}.col-md-offset-7{margin-left:58.33333%}.col-md-8{width:66.66667%}.col-md-offset-0{margin-left:0}.col-md-offset-8{margin-left:66.66667%}.col-md-9{width:75%}.col-md-offset-0{margin-left:0}.col-md-offset-9{margin-left:75%}.col-md-10{width:83.33333%}.col-md-offset-0{margin-left:0}.col-md-offset-10{margin-left:83.33333%}.col-md-11{width:91.66667%}.col-md-offset-0{margin-left:0}.col-md-offset-11{margin-left:91.66667%}.col-md-12{width:100%}.col-md-offset-0{margin-left:0}.col-md-offset-12{margin-left:100%}}@media (min-width: 960px){.col-lg-1{width:8.33333%}.col-lg-offset-0{margin-left:0}.col-lg-offset-1{margin-left:8.33333%}.col-lg-2{width:16.66667%}.col-lg-offset-0{margin-left:0}.col-lg-offset-2{margin-left:16.66667%}.col-lg-3{width:25%}.col-lg-offset-0{margin-left:0}.col-lg-offset-3{margin-left:25%}.col-lg-4{width:33.33333%}.col-lg-offset-0{margin-left:0}.col-lg-offset-4{margin-left:33.33333%}.col-lg-5{width:41.66667%}.col-lg-offset-0{margin-left:0}.col-lg-offset-5{margin-left:41.66667%}.col-lg-6{width:50%}.col-lg-offset-0{margin-left:0}.col-lg-offset-6{margin-left:50%}.col-lg-7{width:58.33333%}.col-lg-offset-0{margin-left:0}.col-lg-offset-7{margin-left:58.33333%}.col-lg-8{width:66.66667%}.col-lg-offset-0{margin-left:0}.col-lg-offset-8{margin-left:66.66667%}.col-lg-9{width:75%}.col-lg-offset-0{margin-left:0}.col-lg-offset-9{margin-left:75%}.col-lg-10{width:83.33333%}.col-lg-offset-0{margin-left:0}.col-lg-offset-10{margin-left:83.33333%}.col-lg-11{width:91.66667%}.col-lg-offset-0{margin-left:0}.col-lg-offset-11{margin-left:91.66667%}.col-lg-12{width:100%}.col-lg-offset-0{margin-left:0}.col-lg-offset-12{margin-left:100%}}@media (min-width: 1200px){.col-xl-1{width:8.33333%}.col-xl-offset-0{margin-left:0}.col-xl-offset-1{margin-left:8.33333%}.col-xl-2{width:16.66667%}.col-xl-offset-0{margin-left:0}.col-xl-offset-2{margin-left:16.66667%}.col-xl-3{width:25%}.col-xl-offset-0{margin-left:0}.col-xl-offset-3{margin-left:25%}.col-xl-4{width:33.33333%}.col-xl-offset-0{margin-left:0}.col-xl-offset-4{margin-left:33.33333%}.col-xl-5{width:41.66667%}.col-xl-offset-0{margin-left:0}.col-xl-offset-5{margin-left:41.66667%}.col-xl-6{width:50%}.col-xl-offset-0{margin-left:0}.col-xl-offset-6{margin-left:50%}.col-xl-7{width:58.33333%}.col-xl-offset-0{margin-left:0}.col-xl-offset-7{margin-left:58.33333%}.col-xl-8{width:66.66667%}.col-xl-offset-0{margin-left:0}.col-xl-offset-8{margin-left:66.66667%}.col-xl-9{width:75%}.col-xl-offset-0{margin-left:0}.col-xl-offset-9{margin-left:75%}.col-xl-10{width:83.33333%}.col-xl-offset-0{margin-left:0}.col-xl-offset-10{margin-left:83.33333%}.col-xl-11{width:91.66667%}.col-xl-offset-0{margin-left:0}.col-xl-offset-11{margin-left:91.66667%}.col-xl-12{width:100%}.col-xl-offset-0{margin-left:0}.col-xl-offset-12{margin-left:100%}}.container,.container-lg{padding:0 0.5rem;max-width:960px;margin:0 auto}.container-sm{padding:0 0.5rem;max-width:480px;margin:0 auto}.container-md{padding:0 0.5rem;max-width:768px;margin:0 auto}.container-xl{padding:0 0.5rem;max-width:1200px;margin:0 auto}.container-fluid{padding:0 0.5rem}.row,.demo-col-box{*zoom:1}.row:before,.demo-col-box:before,.row:after,.demo-col-box:after{content:'';display:table}.row:after,.demo-col-box:after{clear:both}html,body{margin:0;padding:0;font-family:Arial;font-family:Menlo, Consolas, 'DejaVu Sans Mono', monospace}.demo-col-box{padding:units(0.5) units(1);background:rgba(150,150,150,0.4);border:1px solid rgba(150,150,150,0.6)}.demo-responsive{color:#999}@media (max-width: 479px){.demo-responsive .screen-xs{color:black;font-weight:bold}}@media (min-width: 480px){.demo-responsive .screen-sm-up{color:black;font-weight:bold}}@media (min-width: 480px) and (max-width: 767px){.demo-responsive .screen-sm{color:black;font-weight:bold}}@media (min-width: 768px){.demo-responsive .screen-md-up{color:black;font-weight:bold}}@media (min-width: 768px) and (max-width: 959px){.demo-responsive .screen-md{color:black;font-weight:bold}}@media (min-width: 960px){.demo-responsive .screen-lg-up{color:black;font-weight:bold}}@media (min-width: 960px) and (max-width: 1199px){.demo-responsive .screen-lg{color:black;font-weight:bold}}@media (min-width: 1200px) and (min-width: 1199px){.demo-responsive .screen-xl{color:black;font-weight:bold}}
+/* line 8, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.row, .demo-col-box {
+		*zoom: 1; }
+		/* line 10, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.row:before, .demo-col-box:before, .row:after, .demo-col-box:after {
+				content: '';
+				display: table; }
+		/* line 15, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.row:after, .demo-col-box:after {
+				clear: both; }
+
+/* line 18, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+[class*='col-'] {
+		float: left;
+		width: 100%;
+		padding: 0 0.5rem;
+		min-height: 1px;
+		box-sizing: border-box; }
+
+/* line 33, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.row {
+		box-sizing: border-box;
+		margin: 0 -0.5rem; }
+
+/* line 38, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.no-gutter {
+		margin: 0; }
+		/* line 40, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.no-gutter > [class^='col-'] {
+				padding: 0; }
+
+/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.col-xs-1 {
+		width: 8.33333%; }
+
+/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.col-xs-offset-0 {
+		margin-left: 0; }
+
+/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.col-xs-offset-1 {
+		margin-left: 8.33333%; }
+
+/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.col-xs-2 {
+		width: 16.66667%; }
+
+/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.col-xs-offset-0 {
+		margin-left: 0; }
+
+/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.col-xs-offset-2 {
+		margin-left: 16.66667%; }
+
+/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.col-xs-3 {
+		width: 25%; }
+
+/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.col-xs-offset-0 {
+		margin-left: 0; }
+
+/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.col-xs-offset-3 {
+		margin-left: 25%; }
+
+/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.col-xs-4 {
+		width: 33.33333%; }
+
+/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.col-xs-offset-0 {
+		margin-left: 0; }
+
+/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.col-xs-offset-4 {
+		margin-left: 33.33333%; }
+
+/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.col-xs-5 {
+		width: 41.66667%; }
+
+/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.col-xs-offset-0 {
+		margin-left: 0; }
+
+/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.col-xs-offset-5 {
+		margin-left: 41.66667%; }
+
+/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.col-xs-6 {
+		width: 50%; }
+
+/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.col-xs-offset-0 {
+		margin-left: 0; }
+
+/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.col-xs-offset-6 {
+		margin-left: 50%; }
+
+/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.col-xs-7 {
+		width: 58.33333%; }
+
+/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.col-xs-offset-0 {
+		margin-left: 0; }
+
+/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.col-xs-offset-7 {
+		margin-left: 58.33333%; }
+
+/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.col-xs-8 {
+		width: 66.66667%; }
+
+/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.col-xs-offset-0 {
+		margin-left: 0; }
+
+/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.col-xs-offset-8 {
+		margin-left: 66.66667%; }
+
+/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.col-xs-9 {
+		width: 75%; }
+
+/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.col-xs-offset-0 {
+		margin-left: 0; }
+
+/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.col-xs-offset-9 {
+		margin-left: 75%; }
+
+/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.col-xs-10 {
+		width: 83.33333%; }
+
+/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.col-xs-offset-0 {
+		margin-left: 0; }
+
+/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.col-xs-offset-10 {
+		margin-left: 83.33333%; }
+
+/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.col-xs-11 {
+		width: 91.66667%; }
+
+/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.col-xs-offset-0 {
+		margin-left: 0; }
+
+/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.col-xs-offset-11 {
+		margin-left: 91.66667%; }
+
+/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.col-xs-12 {
+		width: 100%; }
+
+/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.col-xs-offset-0 {
+		margin-left: 0; }
+
+/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.col-xs-offset-12 {
+		margin-left: 100%; }
+
+@media (min-width: 480px) {
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-sm-1 {
+				width: 8.33333%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-sm-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-sm-offset-1 {
+				margin-left: 8.33333%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-sm-2 {
+				width: 16.66667%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-sm-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-sm-offset-2 {
+				margin-left: 16.66667%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-sm-3 {
+				width: 25%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-sm-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-sm-offset-3 {
+				margin-left: 25%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-sm-4 {
+				width: 33.33333%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-sm-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-sm-offset-4 {
+				margin-left: 33.33333%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-sm-5 {
+				width: 41.66667%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-sm-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-sm-offset-5 {
+				margin-left: 41.66667%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-sm-6 {
+				width: 50%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-sm-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-sm-offset-6 {
+				margin-left: 50%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-sm-7 {
+				width: 58.33333%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-sm-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-sm-offset-7 {
+				margin-left: 58.33333%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-sm-8 {
+				width: 66.66667%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-sm-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-sm-offset-8 {
+				margin-left: 66.66667%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-sm-9 {
+				width: 75%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-sm-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-sm-offset-9 {
+				margin-left: 75%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-sm-10 {
+				width: 83.33333%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-sm-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-sm-offset-10 {
+				margin-left: 83.33333%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-sm-11 {
+				width: 91.66667%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-sm-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-sm-offset-11 {
+				margin-left: 91.66667%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-sm-12 {
+				width: 100%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-sm-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-sm-offset-12 {
+				margin-left: 100%; } }
+
+@media (min-width: 768px) {
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-md-1 {
+				width: 8.33333%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-md-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-md-offset-1 {
+				margin-left: 8.33333%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-md-2 {
+				width: 16.66667%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-md-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-md-offset-2 {
+				margin-left: 16.66667%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-md-3 {
+				width: 25%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-md-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-md-offset-3 {
+				margin-left: 25%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-md-4 {
+				width: 33.33333%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-md-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-md-offset-4 {
+				margin-left: 33.33333%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-md-5 {
+				width: 41.66667%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-md-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-md-offset-5 {
+				margin-left: 41.66667%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-md-6 {
+				width: 50%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-md-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-md-offset-6 {
+				margin-left: 50%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-md-7 {
+				width: 58.33333%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-md-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-md-offset-7 {
+				margin-left: 58.33333%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-md-8 {
+				width: 66.66667%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-md-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-md-offset-8 {
+				margin-left: 66.66667%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-md-9 {
+				width: 75%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-md-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-md-offset-9 {
+				margin-left: 75%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-md-10 {
+				width: 83.33333%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-md-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-md-offset-10 {
+				margin-left: 83.33333%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-md-11 {
+				width: 91.66667%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-md-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-md-offset-11 {
+				margin-left: 91.66667%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-md-12 {
+				width: 100%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-md-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-md-offset-12 {
+				margin-left: 100%; } }
+
+@media (min-width: 960px) {
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-lg-1 {
+				width: 8.33333%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-lg-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-lg-offset-1 {
+				margin-left: 8.33333%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-lg-2 {
+				width: 16.66667%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-lg-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-lg-offset-2 {
+				margin-left: 16.66667%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-lg-3 {
+				width: 25%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-lg-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-lg-offset-3 {
+				margin-left: 25%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-lg-4 {
+				width: 33.33333%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-lg-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-lg-offset-4 {
+				margin-left: 33.33333%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-lg-5 {
+				width: 41.66667%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-lg-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-lg-offset-5 {
+				margin-left: 41.66667%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-lg-6 {
+				width: 50%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-lg-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-lg-offset-6 {
+				margin-left: 50%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-lg-7 {
+				width: 58.33333%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-lg-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-lg-offset-7 {
+				margin-left: 58.33333%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-lg-8 {
+				width: 66.66667%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-lg-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-lg-offset-8 {
+				margin-left: 66.66667%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-lg-9 {
+				width: 75%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-lg-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-lg-offset-9 {
+				margin-left: 75%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-lg-10 {
+				width: 83.33333%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-lg-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-lg-offset-10 {
+				margin-left: 83.33333%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-lg-11 {
+				width: 91.66667%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-lg-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-lg-offset-11 {
+				margin-left: 91.66667%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-lg-12 {
+				width: 100%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-lg-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-lg-offset-12 {
+				margin-left: 100%; } }
+
+@media (min-width: 1200px) {
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-xl-1 {
+				width: 8.33333%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-xl-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-xl-offset-1 {
+				margin-left: 8.33333%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-xl-2 {
+				width: 16.66667%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-xl-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-xl-offset-2 {
+				margin-left: 16.66667%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-xl-3 {
+				width: 25%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-xl-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-xl-offset-3 {
+				margin-left: 25%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-xl-4 {
+				width: 33.33333%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-xl-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-xl-offset-4 {
+				margin-left: 33.33333%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-xl-5 {
+				width: 41.66667%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-xl-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-xl-offset-5 {
+				margin-left: 41.66667%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-xl-6 {
+				width: 50%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-xl-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-xl-offset-6 {
+				margin-left: 50%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-xl-7 {
+				width: 58.33333%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-xl-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-xl-offset-7 {
+				margin-left: 58.33333%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-xl-8 {
+				width: 66.66667%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-xl-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-xl-offset-8 {
+				margin-left: 66.66667%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-xl-9 {
+				width: 75%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-xl-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-xl-offset-9 {
+				margin-left: 75%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-xl-10 {
+				width: 83.33333%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-xl-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-xl-offset-10 {
+				margin-left: 83.33333%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-xl-11 {
+				width: 91.66667%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-xl-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-xl-offset-11 {
+				margin-left: 91.66667%; }
+		/* line 26, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-xl-12 {
+				width: 100%; }
+		/* line 28, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-xl-offset-0 {
+				margin-left: 0; }
+		/* line 30, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+		.col-xl-offset-12 {
+				margin-left: 100%; } }
+
+/* line 65, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.container, .container-lg {
+		padding: 0 0.5rem;
+		max-width: 960px;
+		margin: 0 auto; }
+
+/* line 70, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.container-sm {
+		padding: 0 0.5rem;
+		max-width: 480px;
+		margin: 0 auto; }
+
+/* line 75, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.container-md {
+		padding: 0 0.5rem;
+		max-width: 768px;
+		margin: 0 auto; }
+
+/* line 80, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.container-xl {
+		padding: 0 0.5rem;
+		max-width: 1200px;
+		margin: 0 auto; }
+
+/* line 85, /home/joshua/dev/sasslets/responsive/styles/responsive.sass */
+.container-fluid {
+		padding: 0 0.5rem; }
+
+/* line 4, /home/joshua/dev/sasslets/responsive/demo/demo.sass */
+.row, .demo-col-box {
+		*zoom: 1; }
+		/* line 6, /home/joshua/dev/sasslets/responsive/demo/demo.sass */
+		.row:before, .demo-col-box:before, .row:after, .demo-col-box:after {
+				content: '';
+				display: table; }
+		/* line 11, /home/joshua/dev/sasslets/responsive/demo/demo.sass */
+		.row:after, .demo-col-box:after {
+				clear: both; }
+
+/* line 14, /home/joshua/dev/sasslets/responsive/demo/demo.sass */
+html, body {
+		margin: 0;
+		padding: 0;
+		font-family: Arial;
+		font-family: Menlo, Consolas, 'DejaVu Sans Mono', monospace; }
+
+/* line 20, /home/joshua/dev/sasslets/responsive/demo/demo.sass */
+.demo-col-box {
+		padding: units(0.5) units(1);
+		background: rgba(150, 150, 150, 0.4);
+		border: 1px solid rgba(150, 150, 150, 0.6); }
+
+/* line 26, /home/joshua/dev/sasslets/responsive/demo/demo.sass */
+.demo-responsive {
+		color: #999; }
+		@media (max-width: 479px) {
+				/* line 31, /home/joshua/dev/sasslets/responsive/demo/demo.sass */
+				.demo-responsive .screen-xs {
+						color: black;
+						font-weight: bold; } }
+		@media (min-width: 480px) {
+				/* line 36, /home/joshua/dev/sasslets/responsive/demo/demo.sass */
+				.demo-responsive .screen-sm-up {
+						color: black;
+						font-weight: bold; } }
+		@media (min-width: 480px) and (max-width: 767px) {
+				/* line 41, /home/joshua/dev/sasslets/responsive/demo/demo.sass */
+				.demo-responsive .screen-sm {
+						color: black;
+						font-weight: bold; } }
+		@media (min-width: 768px) {
+				/* line 46, /home/joshua/dev/sasslets/responsive/demo/demo.sass */
+				.demo-responsive .screen-md-up {
+						color: black;
+						font-weight: bold; } }
+		@media (min-width: 768px) and (max-width: 959px) {
+				/* line 51, /home/joshua/dev/sasslets/responsive/demo/demo.sass */
+				.demo-responsive .screen-md {
+						color: black;
+						font-weight: bold; } }
+		@media (min-width: 960px) {
+				/* line 56, /home/joshua/dev/sasslets/responsive/demo/demo.sass */
+				.demo-responsive .screen-lg-up {
+						color: black;
+						font-weight: bold; } }
+		@media (min-width: 960px) and (max-width: 1199px) {
+				/* line 61, /home/joshua/dev/sasslets/responsive/demo/demo.sass */
+				.demo-responsive .screen-lg {
+						color: black;
+						font-weight: bold; } }
+		@media (min-width: 1200px) and (min-width: 1199px) {
+				/* line 66, /home/joshua/dev/sasslets/responsive/demo/demo.sass */
+				.demo-responsive .screen-xl {
+						color: black;
+						font-weight: bold; } }
