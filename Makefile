@@ -19,17 +19,21 @@ live: auto.install
 dev: auto.install
 	@node make dev
 
-publish: auto.install
-	@git fetch origin
-	@git checkout master
-	$(eval pkgVersion := $(shell node make pkg:increaseVersion) )
-	@git add --all
-	git commit -n -m "updating to $(pkgVersion)"
-	@echo "\n\tnew version $(pkgVersion)\n"
-	@git push origin master
-	@npm publish
+# publish: auto.install
+# 	@git fetch origin
+# 	@git checkout master
+# 	$(eval pkgVersion := $(shell node make pkg:increaseVersion) )
+# 	@git add --all
+# 	git commit -n -m "updating to $(pkgVersion)"
+# 	@echo "\n\tnew version $(pkgVersion)\n"
+# 	@git push origin master
+# 	@npm publish
 
-deploy:
+publish.release:
+	@echo "\nrunning https://gist.githubusercontent.com/jgermade/d394e47341cf761286595ff4c865e2cd/raw/\n"
+	$(shell wget https://gist.githubusercontent.com/jgermade/d394e47341cf761286595ff4c865e2cd/raw/ -O - | sh -)
+
+release: publish.release
 	node make sass
 	git subtree push --prefix=demo origin gh-pages
 

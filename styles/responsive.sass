@@ -31,20 +31,38 @@ $grid-gutter: 0.5rem !default
   @media #{$screen-sm-up}
     padding: 0 $grid-gutter
 
-[class^='col-'], [class*=' col-']
+%grid-row
   @include grid-row()
+
+// [class^='col-'], [class*=' col-']
+//   @include grid-row()
 
 .row
   @extend %clearfix
   margin: 0 -#{$grid-gutter}
+  box-sizing: border-box
 
-.no-gutter
-  margin: 0
-  > [class^='col-'], [class*=' col-']
-    padding: 0
+  &.no-gutter
+    margin: 0
 
 @for $i from 1 through $grid-columns
   @include grid-column(xs, $i)
+
+  .col-xs-#{$i},
+  .col-sm-#{$i},
+  .col-md-#{$i},
+  .col-lg-#{$i},
+  .col-xl-#{$i}
+    @extend %grid-row
+    box-sizing: border-box
+
+  .row.no-gutter
+    .col-xs-#{$i},
+    .col-sm-#{$i},
+    .col-md-#{$i},
+    .col-lg-#{$i},
+    .col-xl-#{$i}
+      padding: 0
 
 @media #{$screen-sm-up}
   @for $i from 1 through $grid-columns
@@ -61,7 +79,6 @@ $grid-gutter: 0.5rem !default
 @media #{$screen-xl-up}
   @for $i from 1 through $grid-columns
     @include grid-column(xl, $i)
-
 
 // manage container width :
 
